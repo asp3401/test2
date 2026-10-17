@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple, editable profile website starter for GitHub Pages.">
+  <title>Sunita Sharma | Personal Website</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Alex Morgan home">AM<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#services">What I Do</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, WELCOME TO MY WEBSITE</p>
+        <!-- EDIT: Replace the sample name, title and description below. -->
+        <h1>Hi, I'm <span>Sunita Sharma.</span></h1>
+        <h2>Handcrafting Wellness</h2>
+        <p class="intro">I love making homemade herbal products with care, love, and thoughtfully selected natural ingredients. My goal is to bring traditional herbal goodness into everyday life and share the beauty of nature through simple, handmade creations.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Contact Me</a>
+          <a class="button button-secondary" href="#about">Learn More</a>
+        </div>
+        <div class="quick-contact">
+          <span aria-hidden="true">☎</span>
+          <!-- EDIT: Replace this dummy phone number. -->
+          <a href="tel:+15550102345">+91 7678235027</a>
+          <span class="dot">•</span>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="image-frame">
+          <img src="assets/home-image.svg" alt="Abstract illustration of a person working at a desk">
+        </div>
+        <div class="floating-card"><span class="sparkle">✦</span><div><strong>Ideas into impact</strong><small>One project at a time</small></div></div>
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Good work starts with a good conversation.</h2>
+      <p>I love making homemade herbal products with care, love, and thoughtfully selected natural ingredients. My goal is to bring traditional herbal goodness into everyday life and share the beauty of nature through simple, handmade creations.
+
+        Every product I make reflects my love for natural living, my dedication to quality, and my belief in the power of nature. Thank you for supporting my small business and being a part of my journey! </p>
+    </section>
+
+    <section class="services section" id="services">
+      <p class="eyebrow">WHAT I DO</p>
+      <h2>How I can help</h2>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-icon">✳</span><h3>Creative Design</h3><p>Clear, attractive visuals tailored to your goals and audience.</p></article>
+        <article class="service-card"><span class="service-icon">⌘</span><h3>Web Experiences</h3><p>Simple, responsive web pages that work on phones and computers.</p></article>
+        <article class="service-card"><span class="service-icon">♡</span><h3>Personal Support</h3><p>Friendly collaboration from the first idea to the final details.</p></article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have a project in mind?</h2>
+      <p>Send a message or give me a call. I'd love to hear what you're working on.</p>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:hello@example.com">hello@example.com</a>
+        <a class="button button-secondary" href="tel:+15550102345">+91 7678235027</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> Alex Morgan. Built with care.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script>
+    // Automatically update the copyright year.
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
